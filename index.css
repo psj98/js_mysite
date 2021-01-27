@@ -23,40 +23,40 @@ body {
     color: #636e72;
 }
 
+.js-form, .js-toDoForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js-toDoForm input, .js-form input {
+    text-indent: 5px;
+    width: 200px;
+    height: 20px;
+}
+
 .js-greetings {
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
 }
 
-.js-toDoForm {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.js-toDoForm input{
-    text-indent: 5px;
-    width: 200px;
-    height: 20px;
-}
-
-.js-toDoList{
+.js-toDoList {
     width: 204px;
     margin: 0 auto;
     padding-top: 30px;
 }
 
-.js-toDoList li{
+.js-toDoList li {
     margin: 0 auto;
 }
 
-.js-toDoList li span{
+.js-toDoList li span {
     padding-left: 10px;
     color: black;
     font-weight: bold;
 }
 
-.js-weather{
+.js-weather {
     display: block;
     width: 204px;
     margin: 0 auto;
