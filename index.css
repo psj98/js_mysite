@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    color: #2c3e50;
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.js-clock {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #636e72;
+}
+
+.js-greetings {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.js-toDoForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js-toDoForm input{
+    text-indent: 5px;
+    width: 200px;
+    height: 20px;
+}
+
+.js-toDoList{
+    width: 204px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.js-toDoList li{
+    margin: 0 auto;
+}
+
+.js-toDoList li span{
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.js-weather{
+    display: block;
+    width: 204px;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 2s linear;
+}
